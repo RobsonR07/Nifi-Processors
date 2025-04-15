@@ -56,7 +56,7 @@ class ParseDocument(FlowFileTransform):
         dependencies = [
             "pikepdf==8.12.0",
             "pypdf==4.0.1",
-            "langchain==0.1.7",
+            "langchain==0.1.11",
             "unstructured==0.14.8",
             "unstructured-inference==0.7.36",
             "unstructured_pytesseract==0.3.12",
