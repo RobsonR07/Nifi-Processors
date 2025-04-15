@@ -30,7 +30,7 @@ class PromptChatGPT(FlowFileTransform):
             "document",
             "langchain",
         ]
-        dependencies = ["langchain==0.1.2", "openai==1.9.0", "jsonpath-ng"]
+        dependencies = ["langchain==0.1.11", "openai==1.9.0", "jsonpath-ng"]
 
     MODEL = PropertyDescriptor(
         name="OpenAI Model Name",
